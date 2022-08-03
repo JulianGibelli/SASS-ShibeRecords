@@ -1,0 +1,75 @@
+.mainPage__Container {
+    background-image: url("../assets/wave3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  
+  .menuName {
+    width: 3rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e63946;
+    text-align: center;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+  }
+  
+  @media (max-width: 475px) {
+    .menuName {
+      display: none;
+    }
+  }
+  
+  .mainPage__subContainer {
+    padding: 5% 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+    border-top: solid 3px #f1faee;
+    border-left: solid 3px #f1faee;
+    border-bottom: solid 3px #f1faee;
+  }
+  
+  .mainPage__subContainer > .mainServices__card {
+    /*  ONLINE MASTERING*/
+    height: fit-content;
+    width: 550px;
+  }
+  
+  .textos {
+    width: 35%;
+    padding: 5px 0;
+    word-wrap: break-word;
+  }
+  
+  .textos h1 {
+    font-size: 2vh;
+  }
+  
+  .textos p {
+    font-size: 10px;
+  }
+  
+  .cuadrados img {
+    width: 50%;
+  }
+  
+  .cuadrados {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #457b9d;
+    margin-bottom: 10px;
+    max-width: 500px;
+    height: auto;
+  }
