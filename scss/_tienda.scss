@@ -9,10 +9,7 @@
   grid-auto-rows: 2fr;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-
-  border-top: solid 3px #f1faee;
-  border-left: solid 3px #f1faee;
-  border-bottom: solid 3px #f1faee;
+  @include bordes
 }
 
 @media (max-width: 375px) {

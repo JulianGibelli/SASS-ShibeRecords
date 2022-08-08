@@ -1,0 +1,22 @@
+$first-color: #f1faee;
+$second-color: #a8dadc;
+$third-color: #e63946;
+$fourth-color: #457b9d;
+$fifth-color: #1d3557;
+
+@mixin bordes {
+    border-top: solid 3px $first-color;
+    border-left: solid 3px $first-color;
+    border-bottom: solid 3px $first-color;
+}
+
+@mixin flex($hacia) {
+    display: flex;
+    flex-direction: $hacia;
+}
+
+$estilos:(
+    sFont: 10px,
+    mFont: 20px,
+    lfont: 25px
+);

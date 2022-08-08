@@ -178,6 +178,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  background-color: #a8dadc;
 }
 
 .menuName {
@@ -260,6 +261,7 @@ footer {
   border-top: solid 3px #f1faee;
   border-left: solid 3px #f1faee;
   border-bottom: solid 3px #f1faee;
+  background-color: #a8dadc;
 }
 
 .searchContainer > input {
@@ -314,6 +316,7 @@ footer {
   background-size: cover;
   display: flex;
   height: 100vh;
+  background-color: #a8dadc;
 }
 
 .mainPage__subContainer--modified > h2 {

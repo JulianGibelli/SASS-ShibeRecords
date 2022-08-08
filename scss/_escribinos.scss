@@ -5,6 +5,7 @@
     background-size: cover;
     display: flex;
     height: 100vh;
+    background-color: $second-color;
   }
   
   .mainPage__subContainer--modified > h2 {
@@ -12,20 +13,18 @@
   }
   
   .formulario {
-    background-color: #457b9d;
+    background-color: $fourth-color;
     /* width: %; */
     border-radius: 15px;
     padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     align-items: center;
     gap: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .field-set {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     width: 100%;
   }
   
