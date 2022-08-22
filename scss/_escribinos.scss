@@ -13,6 +13,7 @@
   }
   
   .formulario {
+    font-family: "Poppins", sans-serif;
     background-color: $fourth-color;
     /* width: %; */
     border-radius: 15px;
@@ -33,11 +34,10 @@
     padding: 10px 5px;
     font-family: "Poppins", sans-serif;
   }
-  
-  .text-area {
-    max-height: 100px;
-    max-width: 100%;
+  */
+
+  .text-area {    
     font-family: "Poppins", sans-serif;
     padding: 10px 5px;
     resize: none;
-  } */
+  } 
