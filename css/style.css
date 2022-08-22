@@ -334,9 +334,8 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.field-set {
-  display: flex;
-  flex-direction: column;
+/* .field-set {
+  @include flex(column);
   width: 100%;
 }
 
@@ -352,8 +351,7 @@ footer {
   font-family: "Poppins", sans-serif;
   padding: 10px 5px;
   resize: none;
-}
-
+} */
 iframe {
   position: relative;
 }

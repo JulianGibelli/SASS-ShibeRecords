@@ -80,25 +80,43 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     </div>
     <section class="mainPage__subContainer--modified">
       <h2>Escribinos</h2>
-      <form class="formulario">
-        <div class="field-set">
-          <label for="contact-name" class="contact-name">Nombre</label>
-          <input id="contact-name" type="text" class="input" />
-        </div>
-        <div class="field-set">
-          <label for="email" class="email">Email</label>
-          <input id="email" type="text" class="input" />
-        </div>
-        <div class="field-set">
-          <label for="msg" class="msg">Mensaje</label>
-          <textarea name="msg" id="msg" class="text-area"></textarea>
-        </div>        
-        <div class="field-set">
-          <span>Acepta los terminos y condiciones</span>
-          <input type="checkbox" name="acepta" value="1" />
-        </div>
-
-        <button class="button">Enviar</button>
+      <form class="formulario">        
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-2">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">Nombre</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Apellido</label>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-2">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>        
+          
+        
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+            <label class="form-check-label" for="form2Example33">
+              Suscribite a nuestro Newsletter
+            </label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+        
+          
+        
         
       </form>
     </section>
